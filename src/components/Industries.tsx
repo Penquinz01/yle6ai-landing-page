@@ -8,21 +8,21 @@ export default function Industries() {
   const industries = [
     {
       icon: Car,
-      title: 'Car Dealerships',
-      description: 'Instant test drive bookings, automated follow-ups, and AI-powered trade-in valuations.',
-      benefits: ['24/7 Lead Response', 'Automated Scheduling', 'Review Management'],
+      title: 'Automotive Retail',
+      description: 'Streamlined test drive protocols, algorithmic follow-ups, and data-driven trade-in assessments.',
+      benefits: ['Always-On Lead Response', 'Automated Logistics', 'Reputation Scaling'],
     },
     {
       icon: KeyRound,
-      title: 'Car Rentals',
-      description: 'Seamless booking flows, availability checks, and automated customer support.',
-      benefits: ['Real-time Availability', 'Instant Confirmations', 'Smart Upselling'],
+      title: 'Vehicle Fleet Logistics',
+      description: 'Frictionless reservation funnels, robust inventory tracking, and autonomous client support architectures.',
+      benefits: ['Live Inventory Modeling', 'Instantaneous Approvals', 'Algorithmic Upselling'],
     },
     {
       icon: ShoppingCart,
-      title: 'Hypermarkets',
-      description: 'Customer engagement at scale, promotional campaigns, and loyalty automation.',
-      benefits: ['Bulk Messaging', 'Campaign Automation', 'Loyalty Programs'],
+      title: 'Large-Scale Retail',
+      description: 'Omnichannel customer engagement, targeted promotional deployment, and systemic loyalty management.',
+      benefits: ['Broadcast Precision', 'Campaign Orchestration', 'Retention Frameworks'],
     },
   ];
 
@@ -38,10 +38,10 @@ export default function Industries() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Built for <span className="text-cyan-300">Your Industry</span>
+            Engineered for <span className="text-cyan-300">Your Sector</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Specialized AI solutions tailored to the unique challenges of your business.
+            Specialized AI configurations calibrated precisely to the operational demands of your vertical.
           </p>
         </motion.div>
 

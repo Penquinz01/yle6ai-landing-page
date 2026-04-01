@@ -9,16 +9,16 @@ export default function Capabilities() {
   const [ref, isInView] = useInView({ threshold: 0.1 });
 
   const capabilities = [
-    { icon: Zap, title: 'Autonomous Lead Gen', description: 'Self-sustaining systems that find and qualify prospects' },
-    { icon: Search, title: 'Programmatic SEO', description: 'AI-generated content that ranks and converts' },
-    { icon: Database, title: 'CRM Auto-Sync', description: 'Real-time data flow across all your tools' },
-    { icon: Share2, title: 'Social Orchestration', description: 'Multi-channel engagement on autopilot' },
-    { icon: UserPlus, title: 'Agentic Onboarding', description: 'AI that educates and activates new customers' },
-    { icon: TrendingUp, title: 'Ad-Spend Optimization', description: 'Smart budget allocation for maximum ROI' },
-    { icon: FileText, title: 'Smart Doc Processing', description: 'Extract and act on data from any document' },
-    { icon: Send, title: 'Sales Outreach', description: 'Persistent, personalized follow-up sequences' },
-    { icon: Eye, title: 'Competitor Intel', description: 'Monitor and adapt to market movements' },
-    { icon: Bot, title: 'Custom Internal AI', description: 'Bespoke agents for your unique workflows' },
+    { icon: Zap, title: 'Algorithmic Lead Gen', description: 'Systematic identification and qualification of high-probability targets' },
+    { icon: Search, title: 'Semantic Content Gen', description: 'Scalable content engines driven by performance methodologies' },
+    { icon: Database, title: 'Data Synchronization', description: 'Seamless bidirectional integration across your enterprise stack' },
+    { icon: Share2, title: 'Omnichannel Routing', description: 'Cohesive engagement pathways across multiple touchpoints' },
+    { icon: UserPlus, title: 'Intelligent Onboarding', description: 'Frictionless orientation protocols enhancing customer adoption' },
+    { icon: TrendingUp, title: 'Predictive Allocation', description: 'Dynamic budget optimization for maximum return on ad spend' },
+    { icon: FileText, title: 'Document Parsing', description: 'Automated extraction and classification of structured data' },
+    { icon: Send, title: 'Outreach Sequencing', description: 'Personalized, multi-variate cadence structures' },
+    { icon: Eye, title: 'Market Intelligence', description: 'Continuous monitoring of competitive positioning and market variables' },
+    { icon: Bot, title: 'Proprietary Integrations', description: 'Custom-built computational models for bespoke workflows' },
   ];
 
   return (
@@ -33,10 +33,10 @@ export default function Capabilities() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Core <span className="text-cyan-300">Capabilities</span>
+            Enterprise <span className="text-cyan-300">Competencies</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Enterprise-grade AI automation tools that give you an unfair advantage.
+            A comprehensive suite of machine learning modules engineered to streamline processes and amplify business intelligence.
           </p>
         </motion.div>
 

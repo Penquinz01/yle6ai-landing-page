@@ -8,18 +8,18 @@ export default function Problem() {
   const problems = [
     {
       icon: MessageSquareX,
-      title: 'Missed Conversations',
-      description: 'WhatsApp and Instagram messages pile up while your team is busy, and potential customers move on to competitors.',
+      title: 'Uncaptured Pipeline',
+      description: 'Inbound communications overwhelm siloed teams, allowing critical opportunities to be intercepted by competitors.',
     },
     {
       icon: Clock,
-      title: 'Delayed Follow-ups',
-      description: 'Hours or days pass before leads get a response. By then, their interest has cooled and the opportunity is lost.',
+      title: 'Latent Lead Engagement',
+      description: 'Protracted response times degrade prospect intent, directly decreasing conversion probabilities on high-value leads.',
     },
     {
       icon: TrendingDown,
-      title: 'Dropping Interest',
-      description: 'Every minute a customer waits is a minute they reconsider. Wait times kill conversions and revenue.',
+      title: 'Conversion Degradation',
+      description: 'Time-to-action correlates heavily with deal closure; suboptimal response speed measurably damages acquisition ROI.',
     },
   ];
 
@@ -35,10 +35,10 @@ export default function Problem() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Human Speed is Costing You <span className="text-cyan-300">Customers</span>
+            Manual Processes Create <span className="text-cyan-300">Pipeline Bottlenecks</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            In a world where customers expect instant responses, every delayed reply is a lost sale.
+            Operational friction in communication pathways causes unnecessary churn and prevents consistent capitalization.
           </p>
         </motion.div>
 

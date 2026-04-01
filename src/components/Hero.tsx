@@ -24,15 +24,15 @@ export default function Hero() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-black/40 border border-cyan-500/30 mb-6"
             >
               <Sparkles className="w-4 h-4 text-cyan-300" />
-              <span className="text-sm font-medium text-cyan-300">AI-Powered Automation</span>
+              <span className="text-sm font-medium text-cyan-300">Enterprise AI Infrastructure</span>
             </motion.div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Turn Every Inquiry Into Revenue — <span className="text-cyan-300">On Autopilot</span>
+              Optimize Operations — <span className="text-cyan-300">Scale Revenue</span>
             </h1>
 
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              We build autonomous AI systems for Car Dealerships, Rentals, and Hypermarkets that reply instantly and close deals while you sleep.
+              We engineer bespoke AI systems for automotive and retail enterprises, streamlining lead capture, data management, and continuous market engagement.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +42,7 @@ export default function Hero() {
                 onClick={scrollToContact}
                 className="group px-8 py-4 bg-cyan-600 text-black rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-cyan-500 transition-all"
               >
-                Get Your Free Demo
+                Schedule Consultation
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
 

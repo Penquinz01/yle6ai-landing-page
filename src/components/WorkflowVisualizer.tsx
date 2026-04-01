@@ -8,26 +8,26 @@ export default function WorkflowVisualizer() {
   const workflows = [
     {
       icon: Calendar,
-      title: 'Lead Capture & Booking',
-      steps: ['Message', 'AI Qualification', 'Automated Scheduling', 'Confirmed Booking'],
+      title: 'Intelligent Lead Qualification',
+      steps: ['Ingestion', 'Predictive Scoring', 'Dynamic Scheduling', 'Secured Allocation'],
       color: 'sky',
     },
     {
       icon: RefreshCw,
-      title: 'Lead Reactivation',
-      steps: ['Inactive Database', 'AI Reach-out', 'Personalized Offers', 'New Sales'],
+      title: 'Database Revitalization',
+      steps: ['Cold Cohort ID', 'Contextual Outreach', 'Dynamic Offers', 'Re-engagement'],
       color: 'blue',
     },
     {
       icon: Star,
-      title: 'Review Automation',
-      steps: ['Service Complete', 'Automated AI Request', 'Higher Ratings', 'Verified Trust'],
+      title: 'Reputation Management',
+      steps: ['Milestone Trigger', 'Sentiment Processing', 'Strategic Routing', 'Equity Growth'],
       color: 'cyan',
     },
     {
       icon: Target,
-      title: 'Sales Follow-up Engine',
-      steps: ['New Inquiry', 'Multi-step Follow-ups', 'Smart Reminders', 'Deal Closed'],
+      title: 'Multi-Touch Nurture Protocols',
+      steps: ['Pipeline Entry', 'Algorithmic Outreach', 'Engagement Tracking', 'Conversion'],
       color: 'sky',
     },
   ];
@@ -44,10 +44,10 @@ export default function WorkflowVisualizer() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Four Workflows That Run Your Business <span className="text-cyan-300">24/7</span>
+            Core Infrastructural <span className="text-cyan-300">AI Integrations</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Autonomous AI systems that capture, nurture, and convert leads without human intervention.
+            End-to-end operational pathways designed to systemize acquisition, engagement, and retention strategies.
           </p>
         </motion.div>
 
