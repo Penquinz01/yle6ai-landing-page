@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
 
 
-      <div className="relative max-w-7xl mx-auto px-6 py-24 lg:px-8">
+      <div className="relative max-w-7xl mx-auto px-6 pt-32 pb-24 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

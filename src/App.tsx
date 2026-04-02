@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Problem from './components/Problem';
 import WorkflowVisualizer from './components/WorkflowVisualizer';
@@ -9,6 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-black">
+      <Navbar />
       <Hero />
       <Problem />
       <WorkflowVisualizer />

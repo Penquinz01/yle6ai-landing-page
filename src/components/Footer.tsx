@@ -1,14 +1,9 @@
-import { Bot } from 'lucide-react';
-
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-cyan-500/20 text-white py-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-cyan-600 flex items-center justify-center">
-              <Bot className="w-6 h-6 text-black" />
-            </div>
             <span className="text-2xl font-bold">YEL6AI</span>
           </div>
 

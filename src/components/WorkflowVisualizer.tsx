@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Calendar, RefreshCw, Star, Target } from 'lucide-react';
+import { Calendar, RefreshCw, Star, Target } from 'lucide-react';
 import { useInView } from './hooks/useInView';
 
 export default function WorkflowVisualizer() {
@@ -79,11 +79,6 @@ export default function WorkflowVisualizer() {
                         </div>
                         <p className="text-gray-300 font-medium">{step}</p>
                       </div>
-                      {stepIndex < workflow.steps.length - 1 && (
-                        <div className="ml-4 pl-4 py-2">
-                          <ArrowRight className="w-4 h-4 text-cyan-600" />
-                        </div>
-                      )}
                     </div>
                   ))}
                 </div>
