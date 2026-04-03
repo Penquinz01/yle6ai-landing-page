@@ -124,24 +124,20 @@ export default function ContactForm() {
                   <label htmlFor="industry" className="block text-sm font-semibold text-white mb-2">
                     Industry
                   </label>
-                  <select
+                  <input
+                    type="text"
                     id="industry"
                     required
                     value={formData.industry}
                     onChange={(e) => setFormData({ ...formData, industry: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg bg-black/50 border border-cyan-500/30 text-white focus:border-cyan-400/50 focus:ring-2 focus:ring-cyan-500/20 outline-none transition-all"
-                  >
-                    <option value="">Select your industry</option>
-                    <option value="car-dealership">Car Dealership</option>
-                    <option value="car-rental">Car Rental</option>
-                    <option value="hypermarket">Hypermarket</option>
-                    <option value="other">Other</option>
-                  </select>
+                    placeholder="Your Industry"
+                  />
                 </div>
 
                 <div>
                   <label htmlFor="whatsapp" className="block text-sm font-semibold text-white mb-2">
-                    WhatsApp Number
+                    Contact Number
                   </label>
                   <input
                     type="tel"
@@ -150,7 +146,7 @@ export default function ContactForm() {
                     value={formData.whatsapp}
                     onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg bg-black/50 border border-cyan-500/30 text-white focus:border-cyan-400/50 focus:ring-2 focus:ring-cyan-500/20 outline-none transition-all"
-                    placeholder="Your WhatsApp Number"
+                    placeholder="Your Contact Number"
                   />
                 </div>
 
